@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= data.page.title || "The Middleman" %></title>
+
+    <%= stylesheet_link_tag "app", "style" %>
+    <%= javascript_include_tag "modernizr" %>
+
+
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>  </head>
+    <link href='http://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+
+  <body class="<%= page_classes %>">
+    <%= yield %>
+
+    <%= javascript_include_tag  "all" %>
+  </body>
+</html>

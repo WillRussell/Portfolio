@@ -1,0 +1,101 @@
+
+
+.logo {
+  background: linear-gradient(#D1C7B9, rgba(46, 51, 74, 0.5)), url(/images/train.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100%;
+}
+
+
+body {
+    font-family:'Muli', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+/*.contain-to-grid {
+  transition: background 0.5s ease;
+  background:rgba(0,0,0, .8);
+
+  &.undocked {
+    transition: background 0.5s ease;
+    background:rgba(252, 252, 252, .6);
+  }
+}
+
+
+.top-bar {
+  background:transparent;
+
+  transition: padding-top 0.5s ease;
+  padding-top:20px;
+
+  transition: height 0.5s ease;
+    .name h1 a {
+    transition: color 0.5s ease;
+    color:white;
+    }
+}
+.undocked .top-bar {
+  transition: height 0.5s ease;
+  height:30px;
+  transition: padding-top 0.5s ease;
+  padding-top:10px;
+  .name h1 a {
+    transition: color 0.5s ease;
+    color:black;
+    }
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background:transparent;
+}
+.undocked .top-bar-section li:not(.has-form) a:not(.button) {
+  background:transparent;
+}
+
+.top-bar-section ul li {
+  background:transparent;
+  & > a {
+    transition: color 0.5s ease;
+    color:white;
+    }
+}
+.undocked .top-bar-section ul li {
+  background:transparent;
+  & > a {
+    transition: background 0.5s ease;
+    color:black;
+    }
+}
+*/
+i{
+    font-size: 30px;
+    color: rgba(0,0,0, .5);
+}
+
+.icon1 {
+    padding: 10px;
+}
+
+.icon2 {
+    padding: 10px;
+}
+
+.section-two{
+    background-color: rgb(46, 51, 74);
+}
+
+.headline {
+    text-align: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    margin-top: 225px;
+}
+
+h4 {
+    color: white;
+
+}
