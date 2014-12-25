@@ -123,6 +123,8 @@ h5{
 
 .topleft {
     font-family: 'Exo', sans-serif;
+    font-weight: 500px;
+    border: solid rgba(252, 252, 252, .1) 1px;
 }
 
 .yo{
@@ -136,4 +138,11 @@ h5{
 
 .clearing-blackout .carousel {
     display: none;
+}
+
+.left-button{
+    padding-left: 25px;
+    padding-right: 15px;
+    color: rgba(252,252,252, .5);
+    font-size: 15px;
 }
