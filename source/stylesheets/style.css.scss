@@ -20,62 +20,7 @@ body {
     font-size: 20px;
 }
 
-/*.contain-to-grid {
-  transition: background 0.5s ease;
-  background:rgba(0,0,0, .8);
 
-  &.undocked {
-    transition: background 0.5s ease;
-    background:rgba(252, 252, 252, .6);
-  }
-}
-
-
-.top-bar {
-  background:transparent;
-
-  transition: padding-top 0.5s ease;
-  padding-top:20px;
-
-  transition: height 0.5s ease;
-    .name h1 a {
-    transition: color 0.5s ease;
-    color:white;
-    }
-}
-.undocked .top-bar {
-  transition: height 0.5s ease;
-  height:30px;
-  transition: padding-top 0.5s ease;
-  padding-top:10px;
-  .name h1 a {
-    transition: color 0.5s ease;
-    color:black;
-    }
-}
-
-.top-bar-section li:not(.has-form) a:not(.button) {
-  background:transparent;
-}
-.undocked .top-bar-section li:not(.has-form) a:not(.button) {
-  background:transparent;
-}
-
-.top-bar-section ul li {
-  background:transparent;
-  & > a {
-    transition: color 0.5s ease;
-    color:white;
-    }
-}
-.undocked .top-bar-section ul li {
-  background:transparent;
-  & > a {
-    transition: background 0.5s ease;
-    color:black;
-    }
-}
-*/
 i{
     font-size: 30px;
     color: rgba(252,252,252, .5);
@@ -95,10 +40,10 @@ i{
 
 .headline {
     text-align: center;
-    color: rgba(252,252,252, .8);
+    color: rgba(255,255,255, .7);
     font-family: 'Quantico', sans-serif;
     font-weight: 700;
-    margin-top: 225px;
+    margin-top: 260px;
 }
 
 h4 {
@@ -133,6 +78,7 @@ h5{
 }
 
 .subtitle {
+    color: rgba(255,255,255, .7);
     margin-top: -20px;
 }
 
@@ -166,6 +112,12 @@ color: rgb(252,252,252);
     margin-bottom: 25px;
 }
 
+.about-content {
+    color: black;
+    font-family: 'Exo', sans-serif;
+
+}
+
 .about img {
 width: 150px;
 height: 150px;
@@ -173,4 +125,22 @@ border-radius: 150px;
 -webkit-border-radius: 150px;
 -moz-border-radius: 150px;
 margin-top: 60px;
+}
+
+.clearing-assembled .clearing-container .visible-img {
+background: #333333;
+overflow: hidden;
+height: 95%;
+}
+
+p {
+    color: white;
+    font-family: 'Muli', sans-serif;
+
+}
+
+.details{
+    color: black;
+    font-family: 'Exo', sans-serif;
+
 }
